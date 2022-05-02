@@ -1,0 +1,237 @@
+.oll-progekt{
+background-color: #fff;
+}
+.header-oll{
+  width: 1300px;
+  top: 937px;
+  margin: 0 auto;
+  margin-top: 16px;
+  background-color: #fff;
+  box-shadow: 5px 5px 15px black;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.span-1{
+  margin: 40px auto;
+  margin-left: 20px;
+  color: black;
+  display: inline-block;
+}
+
+.span-2{
+  margin-left: 30px;
+  display: inline-block;
+}
+
+.img-header{
+  margin-left: 750px;
+  display: inline-block;
+}
+
+.main-oll{
+  display: inline-block;
+  margin-top: 130px;
+  height:1500px ;
+}
+
+.div-box1{
+  margin: 0px;
+  width: 400px;
+  font-family: sans-serif;
+  margin-left: 74px;
+  margin-top: 50px;
+  font-size: 36px;
+  line-height: 41px;
+  font-weight:bold
+}
+
+.div-box2{
+  margin: 0px;
+  width: 400px;
+  font-family: sans-serif;
+  margin-left: 74px;
+  margin-top: 50px;
+  font-size: 36px;
+  line-height: 41px;
+  font-weight:bold
+}
+
+.div-box3{
+  margin: 0px;
+  width: 400px;
+  font-family: sans-serif;
+  margin-left: 74px;
+  margin-top: 50px;
+  font-size: 36px;
+  line-height: 41px;
+  font-weight:bold
+}
+
+.div-box4{
+  margin: 0px;
+  width: 400px;
+  font-family: sans-serif;
+  margin-left: 74px;
+  margin-top: 50px;
+  font-size: 36px;
+  line-height: 41px;
+  font-weight:bold
+}
+
+.oll-div-box{
+  width: 400px;
+  display: inline-block;
+  position: sticky;
+  top: 140px;
+  z-index: 1;
+}
+
+.oll-text{
+  width: 900px;
+  height: 1500px;
+  padding-right: 200px;
+  display: inline-block;
+  margin-left: 500px;
+  box-sizing: border-box;
+  position: relative;
+  bottom: 369px;
+  
+}
+
+.text-big{
+  font-size: 24px;
+}
+h2{
+  font-size: 36px;
+  border-top: solid black ;
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.facebook {
+  width: 440px;
+  height: 280px;
+  background-image: url('/Lesson-7/assets/facebook.jpg');
+}
+
+.facebook:hover {
+  transform: rotateX(360deg);
+  transition:ease-in-out 0.5s;
+  background-image: url('/Lesson-7/assets/facebook-blek.jpg');
+}
+
+.instagram{
+  width: 440px;
+  height: 280px;
+  position: relative;
+  margin-left: 450px;
+  bottom:280px;
+  background-image: url('/Lesson-7/assets/Instagram.jpg');
+}
+
+.instagram:hover {
+  transform: rotateY(360deg);
+  transition:ease-in-out 0.5s;
+  background-image: url('/Lesson-7/assets/Instagram-blek.jpg');
+}
+.shopify{
+  margin: 0;
+  width: 440px;
+  height: 280px;
+  position: relative;
+  margin-left: 900px;
+  bottom: 560px;
+  background-image: url('/Lesson-7/assets/Shopify.jpg');
+}
+
+.shopify:hover {
+  transform: rotateX(360deg);
+  transition:ease-in-out 0.5s;
+  background-image: url('/Lesson-7/assets/Shopify-whait.jpg');
+}
+.skype{
+  width: 440px;
+  height: 280px;
+  position: relative;
+  bottom: 550px;
+  background-image: url('/Lesson-7/assets/Skype.jpg');
+}
+
+.skype:hover {
+  transform: rotateY(360deg);
+  transition:ease-in-out 0.5s;
+  background-image: url('/Lesson-7/assets/Skype-blek.jpg');
+}
+.Pinterest{
+  width: 440px;
+  height: 280px;
+  position: relative;
+  margin-left: 450px;
+  bottom: 830px;
+  background-image: url('/Lesson-7/assets/Pinterest.jpg');
+}
+
+.Pinterest:hover {
+  transform: rotateX(360deg);
+  transition:ease-in-out 0.5s;
+  background-image: url('/Lesson-7/assets/Pinterest-blek.jpg');
+}
+.Wix{
+  margin: 0;
+  width: 440px;
+  height: 280px;
+  position: relative;
+  margin-left: 900px;
+  bottom: 1110px;
+  background-image: url('/Lesson-7/assets/Wix.jpg');
+}
+
+.Wix:hover {
+  transform: rotateY(360deg);
+  transition:ease-in-out 0.5s;
+  background-image: url('/Lesson-7/assets/Wix-blek.jpg');
+}
+.Salesforce{
+  width: 440px;
+  height: 280px;
+  position: relative;
+  margin-left: 250px;
+  bottom: 1100px ;
+  background-image: url('/Lesson-7/assets/Salesforce.jpg');
+}
+
+.Salesforce:hover {
+  transform: rotateX(360deg);
+  transition:ease-in-out 0.5s;
+  background-image: url('/Lesson-7/assets/Salesforce-blek.jpg');
+}
+.Soundcloud{
+  width: 440px;
+  height: 280px;
+  position: relative;
+  margin-left: 700px;
+  bottom: 1380px;
+  background-image: url('/Lesson-7/assets/Soundcloud.jpg');
+}
+
+.Soundcloud:hover {
+  transform: rotateY(360deg);
+  transition:ease-in-out 0.5s;
+  background-image: url('/Lesson-7/assets/Soundcloud-blek.jpg');
+}
+
+.oll-pict{
+  display: inline-block;
+  height: 1000px;
+}
+
+h3{
+  font-size: 36px;
+  border-left: solid black;
+}
