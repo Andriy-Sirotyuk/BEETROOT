@@ -1,0 +1,43 @@
+.oll_conteiner{
+  display: grid;
+  grid-template-areas: "header header header"
+  "sidebar section section"
+  "footer footer footer";
+  gap: 20px;
+}
+
+.box, .item{
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 25px;
+  background-color: darkkhaki;
+  box-shadow: 10px 5px 10px rgb(194, 246, 248);
+  
+}
+
+.header{
+  grid-area: header;
+  background-color:darkkhaki;
+}
+
+.sidebar{
+  grid-area: sidebar;
+  align-self: start;
+  background-color: darkolivegreen;
+}
+
+.section{
+  grid-area: section;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 10px;
+  background-color: darkolivegreen;
+}
+
+.footer{
+  grid-area: footer;
+}
+
+body{
+  background-color: darkgray;
+}
