@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Macondo&display=swap");
+.header {
+  max-width: 100%;
+  padding: 20px 0 50px 0;
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Macondo', cursive;
+  color: yellow;
+  border: 5px solid yellow;
+  background-color: blue;
+}
+
+.animate__animated {
+  -webkit-animation-iteration-count: 3;
+          animation-iteration-count: 3;
+}
+
+h1 {
+  -webkit-box-shadow: 10px 10px 20px yellow;
+          box-shadow: 10px 10px 20px yellow;
+}
+
+div {
+  background-color: red;
+}
+
+div:hover {
+  background-color: black;
+}
+
+.oll-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 193px 193px 193px 193px 193px 193px 193px 193px;
+      grid-template-columns: 193px 193px 193px 193px 193px 193px 193px 193px;
+  -ms-grid-rows: 252px 252px;
+      grid-template-rows: 252px 252px;
+  gap: 20px;
+}
+
+.item {
+  max-width: 193px;
+  max-height: 252px;
+  background-repeat: no-repeat;
+  background-size: 193px 252px;
+}
+
+.foto {
+  width: 100%;
+  height: 100%;
+}
+
+.item-1 {
+  background-image: url(/Lesson-12/assets/images.jpg);
+}
+
+.oll-container:hover .item {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  -webkit-transition: ease-in-out 0.5s;
+  transition: ease-in-out 0.5s;
+  background-image: url(/Lesson-12/assets/images.png);
+}
+
+.oll-container:hover .item-2 {
+  -webkit-transition-delay: 0.25s;
+          transition-delay: 0.25s;
+}
+
+.oll-container:hover .item-3 {
+  -webkit-transition-delay: 0.5s;
+          transition-delay: 0.5s;
+}
+
+.oll-container:hover .item-4 {
+  -webkit-transition-delay: 0.75s;
+          transition-delay: 0.75s;
+}
+
+.oll-container:hover .item-5 {
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
+}
+
+.oll-container:hover .item-6 {
+  -webkit-transition-delay: 1.25s;
+          transition-delay: 1.25s;
+}
+
+.oll-container:hover .item-7 {
+  -webkit-transition-delay: 1.5s;
+          transition-delay: 1.5s;
+}
+
+.oll-container:hover .item-8 {
+  -webkit-transition-delay: 1.75s;
+          transition-delay: 1.75s;
+}
+
+.oll-container:hover .item-9 {
+  -webkit-transition-delay: 2s;
+          transition-delay: 2s;
+}
+
+.oll-container:hover .item-10 {
+  -webkit-transition-delay: 2.25s;
+          transition-delay: 2.25s;
+}
+
+.oll-container:hover .item-11 {
+  -webkit-transition-delay: 2.5s;
+          transition-delay: 2.5s;
+}
+
+.oll-container:hover .item-12 {
+  -webkit-transition-delay: 2.75s;
+          transition-delay: 2.75s;
+}
+
+.oll-container:hover .item-13 {
+  -webkit-transition-delay: 3s;
+          transition-delay: 3s;
+}
+
+.oll-container:hover .item-14 {
+  -webkit-transition-delay: 3.25s;
+          transition-delay: 3.25s;
+}
+
+.oll-container:hover .item-15 {
+  -webkit-transition-delay: 3.5s;
+          transition-delay: 3.5s;
+}
+
+.oll-container:hover .item-16 {
+  -webkit-transition-delay: 3.75s;
+          transition-delay: 3.75s;
+  animation: reverse;
+}
+
+.item-2 {
+  background-image: url(/Lesson-12/assets/card-D.jpg);
+}
+
+.item-3 {
+  background-image: url(/Lesson-12/assets/card-K.jpg);
+}
+
+.item-4 {
+  background-image: url(/Lesson-12/assets/card-B.jpg);
+}
+
+.item-5 {
+  background-image: url(/Lesson-12/assets/joker.jpg);
+}
+
+.item-6 {
+  background-image: url(/Lesson-12/assets/card-PB.jpg);
+}
+
+.item-7 {
+  background-image: url(/Lesson-12/assets/card-TP.jpg);
+}
+
+.item-8 {
+  background-image: url(/Lesson-12/assets/card-DH.jpg);
+}
+
+.item-9 {
+  background-image: url(/Lesson-12/assets/card-BH.jpg);
+}
+
+.item-10 {
+  background-image: url(/Lesson-12/assets/card-KP.jpg);
+}
+
+.item-11 {
+  background-image: url(/Lesson-12/assets/korol-bubna.jpg);
+}
+
+.item-12 {
+  background-image: url(/Lesson-12/assets/korol-tref.jpg);
+}
+
+.item-13 {
+  background-image: url(/Lesson-12/assets/tuz-bubna.jpg);
+}
+
+.item-14 {
+  background-image: url(/Lesson-12/assets/dama-pik.jpg);
+}
+
+.item-15 {
+  background-image: url(/Lesson-12/assets/tuz-tref.jpg);
+}
+
+.item-16 {
+  background-image: url(/Lesson-12/assets/dama-bubna.jpg);
+}
+/*# sourceMappingURL=index.css.map */
