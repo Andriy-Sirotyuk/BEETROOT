@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Aleo&display=swap');
+
+body{
+  margin: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.first-conainer{
+  max-width: 1770px;
+  height: 820px;
+  background-image: url(/PROEKT-1/assets/container-1.jpg);
+}
+
+.litl-text{
+  line-height: 26px;
+  font-weight: 400;
+  color: #ffffff;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.aleo-text{
+  font-family: 'Aleo', serif;
+  line-height: 26px;
+  color:#E8E8E8;
+  font-weight: 400;
+}
+
+.oll-button{
+  width: 228px;
+  height: 63px;
+  background-color: #5474FD;
+  color: #ffffff;
+  border: #5474FD;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: 'Aleo', serif;
+  letter-spacing: 1.2px;
+}
+
+.box-first-container{
+  width: 700px;
+  padding: 277px 550px 142px 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.first-container-h1{
+  margin: 0;
+  font-size: 48px;
+  line-height: 26px;
+  letter-spacing: 4.8px;
+  color: #ffffff;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.first-container-p{
+  margin: 0;
+  padding: 11px 0 50px 0;
+  font-size: 22px;
+  letter-spacing: 6.8px;
+}
+
+.two-box-first-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-container-input{
+  width: 503px;
+  height: 63px;
+  text-align: center;
+  border: 2px solid #ffffff;
+  color: #999999;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 2.8px;
+  font-family: 'Josefin Sans', sans-serif;
+  
+}
+
+.first-container-button{
+  margin-right: 37px;
+  width: 153px;
+  height: 67px;
+  text-align: center;
+  align-items: center;
+  background-color: #5474FD;
+  border: 2px solid#ffffff;
+}
+
+.first-container-label{
+  display:inline-flex;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 14px;
+  letter-spacing: 1.4px;
+  font-family: 'Aleo', serif;
+}
+
+.first-container-h3{
+  padding-top: 107px;
+  font-size: 14px;
+  letter-spacing: 2.8px;
+}
+
+.oll-header{
+  max-width: 1770px;
+  background-color: #5474FD;
+  height: 87px;
+  text-align: center;
+}
+
+.header-container{
+  padding: 20px 0 50px 0;
+  display: inline-flex;
+  justify-content: space-between;
+  gap: 400px;
+}
+
+.header-box {
+  padding-left: 100px;
+  max-width: 920px;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 2.8px;
+}
+
+.header-box-two{
+  display: inline-flex;
+  max-width: 766px;
+  justify-content: space-between;
+  gap: 40px;
+
+}
+
+a{
+  text-decoration: none;
+  font-family: 'Aleo', serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.main-container{
+  max-width: 1770px;
+}
+
+.two-container{
+  max-width: 1770px;
+  height: 685px;
+  background-image: url(/PROEKT-1/assets/Rectangle.jpg);
+}
+
+.two-container-flex{
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-two-container{
+  padding: 0 0 0 330px;
+  flex-direction: column;
+  max-width: 950px;
+  text-align:start;
+}
+
+.two-container-h2{
+  padding: 212px 0 50px 0;
+  font-size: 36px;
+  color: #ffffff;
+}
+
+.two-continer-text{
+  padding-bottom: 45px;
+  max-width: 560px;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  color: #E8E8E8;
+}
+
+.box-2-container-two{
+  max-width: 895px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.box-foto-1{
+  padding: 155px 380px 10px 0;
+}
+
+.box-foto-2{
+  padding:0 0 0 90px;
+}
+
+.three-container{
+  padding: 40px 475px 70px 457px;
+  max-width: 1770px;
+  background-color: #333333;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.three-foto{
+  padding-top: 100px;
+}
+
+.three-container-p{
+  font-size: 36px;
+}
+
+.fore-container{
+  padding: 226px 0 100px 328px;
+  max-width: 1770px;
+  max-height: 700px;
+  background-image: url(/PROEKT-1/assets/Rectangle-4.jpg);
+}
+
+.fore-container-oll{
+  max-width: 543px;
+  height: 374px;
+  background-color: #232323;
+  opacity: 0.9;
+  text-align:start;
+}
+
+.help-container{
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0 50px 30px;
+}
+
+.fore-container-h3 {
+  margin: 0;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  color: #E8E8E8;
+}
+
+.fore-p-text-1{
+  margin: 0;
+  padding: 13px 0 23px 0;
+  font-size: 20px;
+}
+
+.fore-p-text-2{
+  padding-bottom: 46px;
+  margin: 0;
+  font-size: 16px;
+  color: #E8E8E8;
+}
+
+.five-container{
+  max-width: 1770px;
+  max-height: 700px;
+  background-image: url(/PROEKT-1/assets/Rectangle-5.jpg);
+  padding: 226px 0 100px 900px;
+}
+
+.six-container{
+  max-width: 1770px;
+  max-height: 700px;
+  background-image: url(/PROEKT-1/assets/Rectangle-6.jpg);
+}
+
+.box-six-container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.six-container-h2{
+  font-size: 36px;
+  padding: 100px 0 70px 0;
+}
+
+.six-container-foto{
+  width: 445px;
+  height: 284px;
+  background-image: url(/PROEKT-1/assets/b0x-6.jpg);
+}
+
+.flex-box-six{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 170px;
+}
+
+.oll-six-box{
+  padding: 50px 25px 40px 62px;
+  box-sizing: border-box;
+  width: 668px;
+  height: 287px;
+  text-align: start;
+  background-color: #333333;
+}
+
+.six-container-h3{
+  margin: 0;
+  font-size: 20px;
+  color: #fefefe;
+}
+
+.six-container-p{
+  font-size: 16px;
+}
+
+.footer-container{
+  margin: 0;
+  max-width: 1770px;
+  max-height: 271px;
+  background-color: #232323;
+  text-align: center;
+}
+
+.footer-container-h2{
+  margin: 0;
+  padding: 120px 0 0 0;
+  font-size: 24px;
+  letter-spacing: 3.4px;
+  font-weight: 700px;
+}
+
+.footer-container-p{
+  margin: 0;
+  padding: 8px 0 17px 0;
+  font-size: 16px;
+  letter-spacing: 1.6px;
+}
+
+.svg-foto{
+  padding-left: 30px;
+  padding-bottom: 50px;
+  font-size: 16px;
+}
+
+.svg-foto-two:hover{
+  fill: #5474FD;
+}
+
+.svg-foto-1{
+  padding-bottom: 50px;
+}
+
+.text-a:hover{
+  border-bottom: 3px solid #999999;
+}
+
+.oll-button:hover{
+  width: 250x;
+  height: 70px;
+  border: 2px solid #ffffff;
+}
+
+.first-container-h3:hover{
+  font-size: 18px;
+}

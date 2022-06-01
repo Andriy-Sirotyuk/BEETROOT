@@ -40,7 +40,7 @@ div:hover{
   max-width: 193px;
   max-height: 252px;
   background-repeat: no-repeat;
-  background-size: 193px 252px;
+  background-size: 100% 100%;
 }
 
 .foto{
@@ -103,12 +103,12 @@ div:hover{
   }
   .item-16{
     transition-delay: 3.75s;
-    animation: reverse;
   }
 }
 
 .item-2{
   background-image: url(/Lesson-12/assets/card-D.jpg);
+  animation-delay: 4s;
 }
 
 .item-3{
